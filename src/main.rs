@@ -18,7 +18,7 @@ const OS_START_SINGLE: u16 = 0x8000;
 
 // Parameters for BPM calculation
 const SAMPLE_INTERVAL_MS: u64 = 10;
-const BPM_CALCULATION_PERIOD: Duration = Duration::from_secs(10);
+const BPM_CALCULATION_PERIOD: Duration = Duration::from_secs(5);
 const THRESHOLD: f32 = 2.7;
 
 fn main() {
